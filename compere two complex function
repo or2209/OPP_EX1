@@ -1,8 +1,0 @@
-in this function we check if two complex functions are equals.
-the problem in this function is that we cant comare object to complex function because Logically, this is difficult to compare between them.
-
-however, we find a partial solution:
-
-first, we check if one of the complex functions are null and the other is not null-in this case we return false.
-than, we check if the object that we recive is type of monom or polynom. if the object is monom or polynom we compare it to our left field of the complex function.
-if the object that we recive is type of complex function we do a big loop(i jump in 0.5 in each iteration). in any iteration we place the value i in the two coplex function and ceck if the value of the set is equals in the two comlex functions. if in all iterations the set of i is equals we return true.
